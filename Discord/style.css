@@ -84,6 +84,7 @@ main {
 /* lado esquerdo */
 .hero-imagem img {
     width: 700px;
+    margin-top: -100px;
 }
 
 /* lado direito */
@@ -91,6 +92,7 @@ main {
     display: flex;
     flex-direction: column;   /* h1 e p empilhados */
     gap: 20px;
+
 }
 
 main h1 {
@@ -315,7 +317,7 @@ main p {
         transform: translateX(0);      /* começa na posição original */
     }
     to {
-        transform: translateX(-50%);   /* move metade — onde começa a repetição */
+        transform: translateX(-30%);   /* move metade — onde começa a repetição */
     }
 }
 
@@ -325,7 +327,7 @@ main p {
     background-image: linear-gradient(to left, #6C75DD, #1e1e5590 60%);
     border-radius: 130px;
     padding: 10px;
-    gap: 15px;    
+    gap: 25px;    
     margin-top: 200px;
 }
 
@@ -345,15 +347,15 @@ main p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     line-height: 1.4;
-    max-width: 400px;            /* largura máxima do texto */
+    max-width: 1000px;            /* largura máxima do texto */
 }
 
 .conteudo-main-4 {
     display: flex;
     flex-direction: column;   /* h1 e p empilhados */
-    gap: 20px;
-    padding: 40px;
-    margin-left: 15px;
+    gap: 25px;
+    padding: 100px;
+    margin-left: 25px;
 }
 
 .div-main-5 {
@@ -389,6 +391,7 @@ main p {
     display: flex;
     flex-direction: column;   /* h1 e p empilhados */
     gap: 20px;
+    padding: 100px;
 }
 
 .cebola-main-5 {
@@ -565,6 +568,23 @@ footer .social {
         width: 170px;
     }
 
+    .hero {
+        align-items: center;      /* centraliza verticalmente */
+        gap: 100px;
+    }
+
+    /* lado esquerdo */
+    .hero-imagem img {
+        width: 700px;
+        margin-top: -10px;
+    }
+
+    /* lado direito */
+    .hero-texto {
+        gap: 20px;
+
+    }
+
     .header-acoes {
         display: flex;
         align-items: center;
@@ -723,6 +743,27 @@ footer .social {
     main p {
         font-size: 17px;
     }
+
+    .hero {
+
+        align-items: center;      /* centraliza verticalmente */
+        gap: 100px;
+    }
+
+    /* lado esquerdo */
+    .hero-imagem img {
+        width: 500px;
+        margin-top: -10px;
+    }
+
+    /* lado direito */
+    .hero-texto {
+
+        flex-direction: column;   /* h1 e p empilhados */
+        gap: 20px;
+
+    }
+
 
     /* remove o width 100% e reduz o padding */
     .botao-download img {
