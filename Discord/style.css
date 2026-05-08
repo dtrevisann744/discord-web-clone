@@ -14,7 +14,7 @@ header {
     color: white;
     margin-top: 20px;
     padding: 30px;
-    display: flex;                  /* coloca filhos lado a lado */
+    display: flex;                  
     align-items: center;            /* centraliza verticalmente */
     justify-content: space-between; /* logo na esquerda, entrar na direita */
 }
@@ -73,7 +73,6 @@ main {
     padding: 150px;
 }
 
-/* container principal: foto + texto lado a lado */
 .hero {
     display: flex;
     flex-direction: row;      /* lado a lado */
@@ -282,7 +281,7 @@ main p {
     z-index: 1;           /* fica na frente da div-main-3 */
 }
 
-/* container da faixa — esconde o que sair dos lados */
+
 .faixa {
     background-image: linear-gradient(to bottom, #252752, #5359B9);
     padding: 45px 0;
@@ -314,10 +313,10 @@ main p {
 /* a mágica da animação */
 @keyframes rolar {
     from {
-        transform: translateX(0);      /* começa na posição original */
+        transform: translateX(0); 
     }
     to {
-        transform: translateX(-30%);   /* move metade — onde começa a repetição */
+        transform: translateX(-30%); 
     }
 }
 
