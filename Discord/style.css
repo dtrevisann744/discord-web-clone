@@ -591,7 +591,7 @@ footer .social {
 
 /* TELAS MENORES QUE 768px */
 
-@media (max-width: 908px) {
+@media (max-width: 768px) {
 
     .Entrar {
         padding: 10px 15px;
@@ -783,19 +783,41 @@ footer .social {
         width: 15px;
     }
 
-    .imagem-discordbig {
-        margin-top: 180px;
+    footer {
+        margin-top: -40px;
+        padding: 80px 180px; /* menos padding nas laterais */
     }
 
-    .imagem-discordbig img {
+    footer .imagem-discordbig {
+        width: 420px;
+        margin: auto;
+    }
+
+    .gangue-container {
+        position: relative;  /* referência para o porquinho absoluto */
+        display: flex;
+        justify-content: center; /* centraliza a gangue */
+        margin-top: 150px;
+        transform: translate(0%, -3%); /* ajuste fino do centro */
+    }
+
+    .gangue {
         display: block;
-        margin: 0 auto;
-        width: 112%;
+        width: 1000px;
+        max-width: 105%;
+
     }
 
+    .porquinho {
+        position: absolute;  /* sai do fluxo e flutua sobre a gangue */
+        width: 400px;
+        max-width: 40%;
 
-
-
+    /* centraliza horizontal e verticalmente */
+        top: 86%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* ajuste fino do centro */
+    }
 }
 
 
@@ -990,7 +1012,7 @@ footer .social {
     .imagem-discordbig img {
         display: block;
         margin: 0 auto;
-        width: 112%;
+        width: 114%;
     }
 
     .coluna-1 {
