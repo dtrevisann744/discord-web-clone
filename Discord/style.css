@@ -22,11 +22,13 @@ header {
 header .logo {
     min-width: 100px;
     width: 200px;
+    position: fixed;
 }
 
 nav {
     display: flex;
     gap:20px;
+    margin: auto;
 }
 
 nav a {
@@ -35,6 +37,7 @@ nav a {
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
+
 }
 
 .Entrar {
@@ -48,7 +51,7 @@ nav a {
     padding: 10px 20px;
     border-radius: 20px;
     transition: 0.3s, color 0.3s;
-
+    position: fixed;
 }
 
 .Entrar:hover {
@@ -583,10 +586,12 @@ footer .social {
 
 .imagem-discordbig {
     margin-top: 180px;
+    margin-right: -350px; /* cancela o padding direito do footer */
 }
 
 .imagem-discordbig img {
-    width: 100%;
+    width: 80%;
+    display: block;
 }
 
 /* TELAS MENORES QUE 768px */
@@ -784,14 +789,16 @@ footer .social {
     }
 
     footer {
-        margin-top: -40px;
-        padding: 80px 180px; /* menos padding nas laterais */
+
+        padding: 80px 170px; /* menos padding nas laterais */
     }
 
-    footer .imagem-discordbig {
-        width: 370px;
-        margin: auto;
-        
+    .imagem-discordbig {
+        text-align: center;
+    }
+
+    .imagem-discordbig img {
+        width: 100vw;
     }
 
     .gangue-container {
@@ -1006,15 +1013,16 @@ footer .social {
 
     }
 
-    .imagem-discordbig {
-        margin-top: 180px;
-    }
+.imagem-discordbig {
+    margin-top: 180px;
+    margin-left: -20px;  /* ajusta conforme o padding do footer nesse breakpoint */
+    margin-right: -150px;
+}
 
-    .imagem-discordbig img {
-        display: block;
-        margin: 0 auto;
-        width: 114%;
-    }
+.imagem-discordbig img {
+    width: 100%;
+    display: block;
+}
 
     .coluna-1 {
         margin-right: -180px;
