@@ -11,9 +11,8 @@ html, body {
 }
 
 header {
-    color: white;
-    margin-top: 20px;
-    padding: 30px;
+    color: white;   
+    padding: 40px;
     display: flex;                  
     align-items: center;            /* centraliza verticalmente */
     justify-content: space-between; /* logo na esquerda, entrar na direita */
@@ -22,7 +21,6 @@ header {
 header .logo {
     min-width: 100px;
     width: 200px;
-    position: fixed;
 }
 
 nav {
@@ -37,7 +35,6 @@ nav a {
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-
 }
 
 .Entrar {
@@ -51,7 +48,6 @@ nav a {
     padding: 10px 20px;
     border-radius: 20px;
     transition: 0.3s, color 0.3s;
-    position: fixed;
 }
 
 .Entrar:hover {
@@ -594,6 +590,8 @@ footer .social {
     display: block;
 }
 
+
+
 /* TELAS MENORES QUE 768px */
 
 @media (max-width: 768px) {
@@ -790,7 +788,7 @@ footer .social {
 
     footer {
 
-        padding: 80px 170px; /* menos padding nas laterais */
+        padding: 8px 190px; /* menos padding nas laterais */
     }
 
     .imagem-discordbig {
@@ -825,6 +823,14 @@ footer .social {
         top: 86%;
         left: 50%;
         transform: translate(-50%, -50%); /* ajuste fino do centro */
+    }
+
+    .coluna-1{
+        margin-top: 100px;
+    }
+
+    .coluna-2{
+        margin-left: 2000px;
     }
 }
 
