@@ -105,9 +105,9 @@ strong {
 }
 
 input {
-    padding: 10px 15px;
+    padding: 12px 15px;
     font-size: 14px;
-    border-radius: 6px;
+    border-radius: 8px;
     background-color: #19116500;
     border: 1px solid rgb(196, 193, 193);
     color: rgb(196, 193, 193);
@@ -116,7 +116,7 @@ input {
 }
 
 .esqueceu-senha {
-    margin-top: 2px;
+    margin-top: -5px;
 }
 
 .esqueceu-senha a {
@@ -125,17 +125,25 @@ input {
 
 .botao-entrar {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .botao-entrar a {
     color: white;
     border: 1px solid #404ffb;
     background: linear-gradient(to left, #404ffb, #9750fc);
-    padding: 12px 170px;
-    border-radius: 6px;
+    padding: 14px 170px;
+    border-radius: 8px;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botao-entrar:hover {
+
+}
+
+.botao-entrar a:hover {
+    text-decoration: none;
 }
 
 .ou {
