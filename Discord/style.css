@@ -190,7 +190,7 @@ main p {
 .div-main h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 53px;
     line-height: 0.9;
 }
 .div-main p {
@@ -198,7 +198,7 @@ main p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     line-height: 1.4;
-    max-width: 400px;            /* largura máxima do texto */
+    max-width: 800px;            /* largura máxima do texto */
 }
 
 .conteudo-main {
@@ -233,7 +233,7 @@ main p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 21px;
     line-height: 1.4;
-    max-width: 400px;            /* largura máxima do texto */
+    max-width: 800px;            /* largura máxima do texto */
 }
 
 .conteudo-main-2 {
@@ -269,7 +269,7 @@ main p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     line-height: 1.4;
-    max-width: 400px;            /* largura máxima do texto */
+    max-width: 800px;            /* largura máxima do texto */
 }
 
 .conteudo-main-3 {
@@ -354,7 +354,7 @@ main p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     line-height: 1.4;
-    max-width: 1000px;            /* largura máxima do texto */
+    max-width: 800px;            
 }
 
 .conteudo-main-4 {
@@ -390,7 +390,7 @@ main p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     line-height: 1.4;
-    max-width: 400px;            /* largura máxima do texto */
+    max-width: 800px;            /* largura máxima do texto */
 }
 
 .conteudo-main-5 {
@@ -436,7 +436,7 @@ main p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 1.4;
-    max-width: 400px;            /* largura máxima do texto */
+    max-width: 800px;            /* largura máxima do texto */
 }
 
 .conteudo-main-6 {

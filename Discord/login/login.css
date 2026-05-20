@@ -11,7 +11,7 @@ header {
 }
 
 header img {
-    width: 150px;
+    width: 170px;
 }
 
 .conteudo {
@@ -25,7 +25,8 @@ header img {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 150px;
+    gap: 160px;
+    margin-top: 70px;
 }
 
 .lado-direito {
