@@ -1,0 +1,163 @@
+html, body {
+    background-image: url('../src/imagens-footer/imagens/fundo-login.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    padding: 40px;
+}
+
+header img {
+    width: 150px;
+}
+
+.conteudo {
+    min-width: 450px;
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid #191165;
+    border-radius: 50px;
+    background-color: #201868;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.lado-direito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.passkey p {
+    color: #404ffb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.conteudo img {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.conteudo-texto {
+    color: rgb(225, 222, 222);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    text-align: center;
+    font-size: 14px;
+}
+
+strong {
+    color: white;
+}
+
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.boas-vindas {
+    text-align: center;
+}
+
+.lado-esquerdo h1 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.lado-esquerdo p {
+    font-size: 17px;
+    color: rgb(196, 193, 193);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lado-esquerdo a {
+    text-decoration: none;
+    color: #404ffb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.lado-esquerdo a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.login label {
+    color: white;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: #19116500;
+    border: 1px solid rgb(196, 193, 193);
+    color: rgb(196, 193, 193);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.esqueceu-senha {
+    margin-top: 2px;
+}
+
+.esqueceu-senha a {
+    font-size: 12px;
+}
+
+.botao-entrar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.botao-entrar a {
+    color: white;
+    border: 1px solid #404ffb;
+    background: linear-gradient(to left, #404ffb, #9750fc);
+    padding: 12px 170px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ou {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #989898;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.ou::before,
+.ou::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #989898b2;
+}
+
+.cadastro p {
+    color: #989898;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
