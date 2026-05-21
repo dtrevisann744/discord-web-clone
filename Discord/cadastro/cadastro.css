@@ -16,8 +16,8 @@ header img {
 
 .conteudo {
     min-width: 450px;
-    max-width: 1000px;
-    height: 500px;
+    max-width: 500px;
+    height: 800px;
     margin: auto;
     border: 1px solid #191165;
     border-radius: 50px;
@@ -72,6 +72,7 @@ strong {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 34px;
     font-weight: 600;
+    margin-top: -30px;
 }
 
 .lado-esquerdo p {
@@ -94,13 +95,17 @@ strong {
 .login {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 8px;   
+    width: 85%;
+    margin: auto;
 }
 
 .login label {
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: -15px;
+    margin-top: 10px;
 }
 
 input {
@@ -112,14 +117,7 @@ input {
     color: rgb(196, 193, 193);
     width: 100%;
     box-sizing: border-box;
-}
-
-.esqueceu-senha {
-    margin-top: -5px;
-}
-
-.esqueceu-senha a {
-    font-size: 12px;
+    margin-top: 10px;
 }
 
 .botao-entrar {
@@ -131,56 +129,44 @@ input {
     color: white;
     border: 1px solid #404ffb;
     background: linear-gradient(to left, #404ffb, #9750fc);
-    padding: 14px 170px;
+    padding: 14px 0;
     border-radius: 8px;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    width: 100%;
 }
 
 .botao-entrar a:hover {
     text-decoration: none;
-    background-color: #989898;
-}
-
-.ou {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: #989898;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    margin-top: 30px;
-}
-
-.ou::before,
-.ou::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background-color: #989898b2;
+    background: #989898;
 }
 
 .cadastro p {
     color: #989898;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    margin-top: 30px;
 }
 
+.checkbox input {
+    width: auto;
+    margin-top: 0;
+}
 
-/*Tela de Cadastro*/
-
-.conteudo-cadastro {
-    min-width: 400px;
-    max-width: 500px;
-    height: 600px;
-    margin: auto;
-    border: 1px solid #191165;
-    border-radius: 20px;
-    background-color: #201868;
+.checkbox {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 160px;
+    gap: 8px;
+    margin-top: 20px;
 }
 
+.login span {
+    color: #404ffb;
+}
+
+.login p {
+    font-size: 14px;
+    width: 85%;
+    margin: auto;
+}

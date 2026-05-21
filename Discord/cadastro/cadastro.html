@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../login/login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="../cadastro/cadastro.css">
+    <title>Cadastro</title>
 </head>
 <body>
     <header>
@@ -16,41 +16,41 @@
             
             <div class="lado-esquerdo">
                 <div class="boas-vindas">
-                    <h1>Boas-vindas de volta!</h1>
-                    <p>Estamos muito animados em te ver novamente!</p>
+                    <h1>Criar uma conta</h1>
                 </div>
 
                 <div class="login">
-                    <label>E-mail ou número de telefone *</label>
-                    <input type="email" name="oi" placeholder="Digite seu e-mail ou telefone">
+                    <label>E-mail *</label>
+                    <input type="email" name="email">
+
+                    <label>Nome exibido</label>
+                    <input type="text" name="name">
+
+                    <label>Nome de usuário *</label>
+                    <input type="text" name="username">
 
                     <label>Senha *</label>
-                    <input type="password" name="password" placeholder="Digite sua senha">
+                    <input type="password" name="password">
 
-                    <div class="esqueceu-senha">
-                        <a href="#">Esqueceu sua senha?</a>
+                    <label>Data de Nascimento *</label>
+                    <input type="date" id="nascimento" name="nascimento" max="2026-05-21">
+
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox">
+                        <label>(Opcional) Tudo bem me mandar e-mails com atualizações do Discord, dicas
+                        e ofertas especiais. Você pode mudar isso a qualquer momento.</label>
                     </div>
+
+                    <p>Ao clicar em "Criar conta", você concorda com os <span>termos de serviço</span> do Discord
+                    e confirma que leu a <span>política de privacidade</span>.</p>
 
                     <div class="botao-entrar">
-                        <a href="#">Entrar</a>
+                        <a href="#">Criar conta</a>
                     </div>
-
-                    <div class="ou">OU</div>
                     
                     <div class="cadastro">
-                        <p>Precisando de uma conta? <a href="#">Cadastre-se</a></p>
+                        <p><a href="../login/login.html">Já tem uma conta? Entre aqui</a></p>
                     </div>
-                </div>
-            </div>
-
-            <div class="lado-direito">
-                <img src="../src/imagens-footer/imagens/QRcode-discord.png" alt="QRcode">
-                <div class="conteudo-texto">
-                    <p>Entrar com código QR</p>
-                    <p>Escaneie isto com o <strong>app móvel do Discord </strong> para fazer login imediatamente.</p>
-                </div>
-                <div class="passkey">
-                    <p>Ou, faça login com uma passkey</p>
                 </div>
             </div>
 
