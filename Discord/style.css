@@ -104,8 +104,9 @@ main {
 main h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 55px;
-    line-height: 1;       
+    font-size: 60px;
+    line-height: 1;     
+    width: 90%;  
 }
 
 main p {
@@ -605,7 +606,7 @@ footer .social {
 
 /* TELAS MENORES QUE 768px */
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
 
     .Entrar {
         padding: 10px 15px;

@@ -138,11 +138,9 @@ input {
 }
 
 .botao-entrar a:hover {
-    background-color: #989898;
-}
-
-.botao-entrar a:hover {
     text-decoration: none;
+    background: #989898;
+    border: #989898;
 }
 
 .ou {
