@@ -70,9 +70,8 @@ strong {
 .lado-esquerdo h1 {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 600;
-    margin-top: -30px;
 }
 
 .lado-esquerdo p {
@@ -146,7 +145,10 @@ input {
     color: #989898;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px;
+}
+
+.cadastro {
+    margin-top: 18px;
 }
 
 .checkbox input {
@@ -159,14 +161,27 @@ input {
     align-items: center;
     gap: 8px;
     margin-top: 20px;
+    margin-bottom: 17px;
 }
 
 .login span {
     color: #404ffb;
 }
 
+.login label {
+    font-size: 16px;
+}
+
+.login .label-termos {
+    color: #b2b2b2;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+
 .login p {
     font-size: 14px;
-    width: 85%;
+    width: 100%;
     margin: auto;
 }
