@@ -80,3 +80,16 @@ nav a:hover {
     font-size: 30px;
     cursor: pointer;
 }
+
+/* CRIANDO ARTICLE*/
+
+.hero-titulo h1 {
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    width: 55%;
+    line-height: 1.0;
+}
