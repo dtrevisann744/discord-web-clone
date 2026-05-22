@@ -85,11 +85,16 @@ nav a:hover {
 
 .hero-titulo h1 {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 10px;
     margin: auto;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 100px;
-    width: 55%;
+    font-size: 110px;
+    width: 65%;
     line-height: 1.0;
+}
+
+.moeda-discord img {
+    width: 180px;
+    margin-left: 100px;
 }
