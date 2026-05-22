@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #27247b, #3a4299, #070619);
+    background-attachment: fixed;
+    /* ← isso resolve */
+    overflow-x: hidden;
+}
+
+header {
+    color: white;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    /* centraliza verticalmente */
+    justify-content: space-between;
+    /* logo na esquerda, entrar na direita */
+}
+
+header .logo {
+    min-width: 100px;
+    width: 180px;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 12px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+nav a:hover {
+    border-color: #3A3C88;
+    background-color: #7873f9;
+}
+
+.Entrar {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    border: white;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s, color 0.3s;
+}
+
+.Entrar:hover {
+    background-color: #c7c2c2;
+    border: #c7c2c2;
+}
+
+
+/* Esconde o checkbox */
+#menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
