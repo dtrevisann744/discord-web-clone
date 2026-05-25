@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e4e6ff;
+}
+
+header {
+    color: white;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    min-width: 100px;
+    width: 140px;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 16px;
+    border: 1px solid transparent;
+    border-radius: 14px;
+}
+
+nav a:hover {
+    border-color: #7773f900;
+    background-color: #7773f9b9;
+}
+
+.Entrar {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    border: white;
+    background-color: #5865F2;
+    padding: 14px 24px;
+    border-radius: 20px;
+    transition: 0.3s, color 0.3s;
+}
+
+.Entrar:hover {
+    background-color: #454fbd;
+    border: #5865F2;
+}
+
+
+/* Esconde o checkbox */
+#menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
