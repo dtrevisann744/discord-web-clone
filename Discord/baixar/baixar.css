@@ -35,11 +35,11 @@ nav a {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     padding: 10px 16px;
     border: 1px solid transparent;
-    border-radius: 12px;
+    border-radius: 14px;
 }
 
 nav a:hover {
@@ -55,7 +55,7 @@ nav a:hover {
     font-weight: bolder;
     border: white;
     background-color: white;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border-radius: 20px;
     transition: 0.3s, color 0.3s;
 }
