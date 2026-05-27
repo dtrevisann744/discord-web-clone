@@ -90,7 +90,7 @@ nav a:hover {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 95px;
-    width: 65%;
+    width: 55%;
     line-height: 1.0;
 }
 
@@ -246,10 +246,10 @@ nav a:hover {
     padding: 7px 10px 0 0px; 
     width: 550px;
     height: 700px;
-    margin: 0 0 0 auto;
+    margin: auto;
     overflow: hidden;
     border: 1px solid #000;
-    margin-right: 40px;
+    margin-right: 100px;
 }
 
 .hero-game-2 img {
@@ -273,7 +273,7 @@ nav a:hover {
     padding: 80px 1px 0 15px; 
     width: 520px;
     height: 600px;
-    margin: 0 0 0 auto;
+    margin: auto;
     overflow: hidden;
     border: 1px solid #000;
 }
@@ -367,7 +367,7 @@ nav a:hover {
 
 .hero-conteudo-4 {
     margin: auto;
-    margin-left: 60px;
+    margin-left: px;
 }
 
 .links-instalar-3 {
@@ -410,10 +410,10 @@ nav a:hover {
     padding: 70px 10px 0 0px; 
     width: 500px;
     height: 650px;
-    margin: 0 0 0 auto;
+    margin: auto;
     overflow: hidden;
     border: 1px solid #000;
-    margin-right: 40px;
+    margin-right: 100px;
 }
 
 .hero-game-4 img {
@@ -610,7 +610,7 @@ footer .social {
 
 .imagem-discordbig {
     margin-top: 180px;
-    margin-right: -350px; /* cancela o padding direito do footer */
+    margin-right: -380px; 
 }
 
 .imagem-discordbig img {
