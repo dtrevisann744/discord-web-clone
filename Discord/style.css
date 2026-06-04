@@ -3,12 +3,15 @@
     padding: 0;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom, #27247b, #3a4299, #070619);
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #0015ff, black 0px , #2b287c);
+    background-attachment: fixed;
     overflow-x: hidden;
-}
+}   
 
 header {
     color: white;   
