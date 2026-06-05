@@ -829,4 +829,8 @@ main {
 }
 
 
-
+footer {
+    display: flex;
+    background: linear-gradient(to bottom, #363897 20%, #5661eb);
+    padding: 40px;
+}
