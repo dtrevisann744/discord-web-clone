@@ -525,10 +525,7 @@ footer {
     background-image: linear-gradient(to bottom, #1C1A64 5%, #6b75ec);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: -150px;
-    margin-right: -150px;
-    margin-top: -170px;
-    padding: 130px 230px;
+    padding: 100px 50px;
 }
 
 footer p {
@@ -570,7 +567,7 @@ footer .social {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-left: 200px;
+    margin-left: 120px;
 }
 
 .p-color {
@@ -587,14 +584,14 @@ footer .social {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 .coluna-4 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-left: 120px;
+    margin-left: 180px;
 }
 
 .coluna-5 {
@@ -606,14 +603,14 @@ footer .social {
 
 .footer-1 {
     display: flex;
+    margin-left: 30px;
 }
 
 .imagem-discordbig {
     margin-top: 180px;
-    margin-right: -380px; 
 }
 
 .imagem-discordbig img {
-    width: 80%;
+    width: 100%;
     display: block;
 }

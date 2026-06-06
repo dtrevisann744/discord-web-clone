@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {  
+    background: linear-gradient(to bottom, #c553da 10%, #1c1a64 300px, #000000 100%);
+}
+
+.xbox {
+    background: linear-gradient(to left,#000000, #13753c, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    gap: 40px;
+}
+
+.gamepass {
+    color: white;
+    text-align: center;
+}
+
+.gamepass h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+}
+
+.gamepass p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.gamepass a {
+    text-decoration: underline;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.gamepass a:hover {
+    text-decoration: none;
+}
+
+.xbox .inscrever {
+    border: 1px solid white;
+    background-color: white;
+    padding: 5px 16px 9px 16px;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.xbox .inscrever:hover {
+    background-color: #dbdbdb;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.header-1 {
+    color: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+}
+
+nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 17px;
+    border: 1px solid transparent;
+    border-radius: 14px;
+}
+
+nav a:hover {
+    border-color: #7773f900;
+    background-color: #5865F2;
+}
+
+.Entrar {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    border: white;
+    background-color: #ffffff;
+    padding: 14px 24px;
+    border-radius: 20px;
+    transition: 0.3s, color 0.3s;
+}
+
+.Entrar:hover {
+    background-color: #454fbd;
+    border: #5865F2;
+}
+
+
+/* Esconde o checkbox */
+#menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.page-one {
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.page-one .raio {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    bottom: 70px;
+    left: 120px;
+
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.titulo h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    line-height: 0.9;
+    text-align: center;
+}
+
+.titulo p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    text-align: center;
+    width: 85%;
+}
+
+.titulo a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid white;
+    padding: 12px 24px 17px 24px; 
+    border-radius: 12px;
+    transition: 0.3s, color 0.3s;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.titulo a:hover {
+    background-color: #dbdbdb;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.page-one .porquinho {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 230px;
+    right: 100px;
+}
+
+.planos {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
