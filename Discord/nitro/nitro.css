@@ -67,6 +67,8 @@ body {
     display: flex;
     align-items: center;
     margin: auto;
+    position: relative;
+    bottom: 20px;
 }
 
 nav {
@@ -98,13 +100,13 @@ nav a:hover {
     font-weight: bolder;
     border: white;
     background-color: #ffffff;
-    padding: 14px 24px;
+    padding: 12px 20px;
     border-radius: 20px;
     transition: 0.3s, color 0.3s;
 }
 
 .Entrar:hover {
-    background-color: #454fbd;
+    background-color: #b8b8b8;
     border: #5865F2;
 }
 
