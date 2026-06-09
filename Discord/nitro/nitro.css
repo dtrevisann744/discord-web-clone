@@ -576,3 +576,67 @@ nav a:hover {
     width: 700px;
     border-radius: 80px;
 }
+
+.viva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 100px;
+    max-width: 1400px;
+    padding: 0 40px;
+    color: white;
+    margin-top: 100px;
+}
+
+.video-viva video {
+    width: 700px;
+    border-radius: 80px;
+}
+
+.conteudo-viva {
+    color: white;
+}
+
+.conteudo-viva h1 {
+    font-family: 'Montserrat', Arial;
+    width: 500px;
+    line-height: 0.9;
+    font-size: 40px;
+}
+
+.conteudo-viva p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 630px;
+    font-size: 21px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.escolher-plano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    margin-top: 50px;
+}
+
+.latinha img {
+    width: 250px;
+    position: relative;
+    top: 20px;
+}
+
+.titulo-plano h1 {
+    color: white;
+    font-family: 'Montserrat', Arial;
+    font-size: 55px;
+}
+
+.furacao img {
+    width: 270px;
+    position: relative;
+    bottom: 50px;
+}
+
