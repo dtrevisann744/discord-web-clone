@@ -601,7 +601,7 @@ footer .social {
 
 .footer-1 {
     display: flex;
-    margin-left: 30px;
+    justify-content: center;
 }
 
 .imagem-discordbig {
