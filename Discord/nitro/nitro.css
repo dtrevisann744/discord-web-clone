@@ -82,7 +82,7 @@ nav a {
     text-decoration: none;
     font-size: 15px;
     font-weight: 600;
-    padding: 10px 17px;
+    padding: 10px 20px;
     border: 1px solid transparent;
     border-radius: 14px;
 }
@@ -150,7 +150,7 @@ nav a:hover {
 .titulo h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 75px;
+    font-size: 80px;
     line-height: 0.9;
     text-align: center;
 }
@@ -358,7 +358,7 @@ nav a:hover {
     display: flex;
     justify-content: right;
     position: relative;
-    right: 100px;
+    right: 150px;
     bottom: 20px;
 }
 
@@ -373,6 +373,130 @@ nav a:hover {
 
 .novidades h1 {
     color: white;
-    font-size: 50px;
+    font-size: 55px;
     font-family: 'Montserrat', Arial;
+}
+
+.img-xbox {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.img-xbox img {
+    border-radius: 90px;
+    width: 90%;
+}
+
+.img-xbox a {
+    display: flex;
+    justify-content: center;
+}
+
+.imgs-captura {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.imgs-captura img {
+    width: 550px;
+    border-radius: 80px;
+}
+
+.imgs-captura h1 {
+    font-family: 'Montserrat', Arial;
+    font-size: 40px;
+    width: 450px;
+    line-height: 1.0;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.imgs-captura p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 470px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.acessorios {
+    border: 1px solid #1b1a1f;
+    background-color: #1b1a1f;
+    width: 530px;
+    height: 650px;
+    border-radius: 90px;
+    padding: 40px 60px 50px 40px;
+}
+
+.orbs {
+    border: 1px solid #1b1a1f;
+    background-color: #1b1a1f;
+    width: 530px;
+    height: 650px;
+    border-radius: 90px;
+    padding: 40px 60px 50px 40px;
+}
+
+.explorar-nitro {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 90px;
+}
+
+.estrela-img img {
+    width: 200px;
+    position: relative;
+    left: 100px;
+    top: 25px;
+}
+
+.explorar h1 {
+    color: white;
+    font-family: 'Montserrat', Arial;
+    line-height: 0.9;
+    text-align: center;
+    font-size: 50px;
+}
+
+.chama {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 100px; 
+    max-width: 1400px; 
+    padding: 0 40px;
+}
+
+.conteudo-chama {
+    margin: auto;
+    color: white;
+    justify-content: center;
+}
+
+.conteudo-chama h1 {
+    font-family: 'Montserrat', Arial;
+    width: 320px;
+    line-height: 0.9;
+    font-size: 40px;
+}
+
+.conteudo-chama p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.video-chama video {
+    width: 600px;
+    border-radius: 80px;
 }

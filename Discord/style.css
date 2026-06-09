@@ -498,6 +498,7 @@ main p {
     display: flex;
     justify-content: center; /* centraliza a gangue */
     margin-top: 150px;
+    top: 170px;
 }
 
 .gangue {
@@ -1068,6 +1069,11 @@ footer .social {
 
     .Redes-sociais img {
         width: 30px;
+    }
+
+    .gangue-container {
+        position: relative;
+        top: 1px;
     }
 
 }
